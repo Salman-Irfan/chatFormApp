@@ -59,7 +59,7 @@ src/
 
   <hr>
 
-  <h2>🔌 API Endpoints Integrated</h2>
+  <h2>API Endpoints Integrated</h2>
   <ul>
     <li><code>POST /company/create-company</code></li>
     <li><code>GET /company/get-all-companies</code></li>
