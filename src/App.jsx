@@ -8,7 +8,7 @@ import AddCompanyPage from "./components/pages/AddCompanyPage";
 import AllCompaniesPage from "./components/pages/AllCompaniesPage";
 import AddUserPage from "./components/pages/AddUserPage";
 import AllUsersPage from "./components/pages/AllUsersPage";
-import FormPage from "./components/pages/FormPage";
+import FormPage from "./components/pages/AssignFormPage";
 import ResponsePage from "./components/pages/ResponsePage";
 import PendingPage from "./components/pages/PendingPage";
 
