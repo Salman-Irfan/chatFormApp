@@ -12,4 +12,8 @@ export const END_POINTS = {
   // form endpoints
   CREATE_FORM: `${API_BASE_URL}/form/create-form`,
   GET_ALL_FORMS: `${API_BASE_URL}/form/get-all-forms`,
+  // form response endpoints
+  SUBMIT_FORM_RESPONSE: `${API_BASE_URL}/form/submit-response`,
+  GET_ALL_FORM_RESPONSES: `${API_BASE_URL}/form/get-all-form-responses`,
+
 };

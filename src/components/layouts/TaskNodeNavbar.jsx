@@ -13,8 +13,8 @@ const TaskNodeNavbar = () => {
           <Link to="/task-node/add-user" className="hover:underline">3. Add User</Link>
           <Link to="/task-node/all-users" className="hover:underline">4. All User</Link>
           <Link to="/task-node/assign-form" className="hover:underline">5. Assign Forms</Link>
+          <Link to="/task-node/all-assigned-form" className="hover:underline">6. All Assigned Forms</Link>
           <Link to="/task-node/responses" className="hover:underline">6. Form Responses</Link>
-          <Link to="/task-node/pending" className="hover:underline">7. Pending</Link>
         </div>
       </div>
     </nav>

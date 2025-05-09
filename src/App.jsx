@@ -11,6 +11,8 @@ import AllUsersPage from "./components/pages/AllUsersPage";
 import AssignFormPage from "./components/pages/AssignFormPage";
 import ResponsePage from "./components/pages/ResponsePage";
 import PendingPage from "./components/pages/PendingPage";
+import AllAssignedFormPage from "./components/pages/AllAssignedFormPage";
+import SubmitFormPage from "./components/pages/SubmitFormPage";
 
 const App = () => {
   return (
@@ -25,6 +27,8 @@ const App = () => {
         <Route path="add-user" element={<AddUserPage />} />
         <Route path="all-users" element={<AllUsersPage />} />
         <Route path="assign-form" element={<AssignFormPage />} />
+        <Route path="all-assigned-form" element={<AllAssignedFormPage />} />
+        <Route path="submit-response/:formId" element={<SubmitFormPage />} />
         <Route path="responses" element={<ResponsePage />} />
         <Route path="pending" element={<PendingPage />} />
       </Route>
