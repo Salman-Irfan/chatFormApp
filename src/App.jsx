@@ -8,7 +8,7 @@ import AddCompanyPage from "./components/pages/AddCompanyPage";
 import AllCompaniesPage from "./components/pages/AllCompaniesPage";
 import AddUserPage from "./components/pages/AddUserPage";
 import AllUsersPage from "./components/pages/AllUsersPage";
-import FormPage from "./components/pages/AssignFormPage";
+import AssignFormPage from "./components/pages/AssignFormPage";
 import ResponsePage from "./components/pages/ResponsePage";
 import PendingPage from "./components/pages/PendingPage";
 
@@ -24,7 +24,7 @@ const App = () => {
         <Route path="all-companies" element={<AllCompaniesPage />} />
         <Route path="add-user" element={<AddUserPage />} />
         <Route path="all-users" element={<AllUsersPage />} />
-        <Route path="forms" element={<FormPage />} />
+        <Route path="assign-form" element={<AssignFormPage />} />
         <Route path="responses" element={<ResponsePage />} />
         <Route path="pending" element={<PendingPage />} />
       </Route>
