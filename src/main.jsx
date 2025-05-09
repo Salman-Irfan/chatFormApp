@@ -5,12 +5,14 @@ import App from "./App.jsx";
 import { CssBaseline } from "@mui/material";
 import { ThemeProvider } from "@emotion/react";
 import theme from "./theme/customTheme.js";
-
+import { BrowserRouter } from "react-router-dom";
 createRoot(document.getElementById("root")).render(
   <>
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <App />
-    </ThemeProvider>
+    <BrowserRouter>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <App />
+      </ThemeProvider>
+    </BrowserRouter>
   </>
 );
