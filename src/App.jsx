@@ -10,7 +10,6 @@ import AddUserPage from "./components/pages/AddUserPage";
 import AllUsersPage from "./components/pages/AllUsersPage";
 import AssignFormPage from "./components/pages/AssignFormPage";
 import ResponsePage from "./components/pages/ResponsePage";
-import PendingPage from "./components/pages/PendingPage";
 import AllAssignedFormPage from "./components/pages/AllAssignedFormPage";
 import SubmitFormPage from "./components/pages/SubmitFormPage";
 
@@ -30,7 +29,7 @@ const App = () => {
         <Route path="all-assigned-form" element={<AllAssignedFormPage />} />
         <Route path="submit-response/:formId" element={<SubmitFormPage />} />
         <Route path="responses" element={<ResponsePage />} />
-        <Route path="pending" element={<PendingPage />} />
+        
       </Route>
       {/* not found */}
       <Route path="*" element={<div>404 Not Found</div>} />
